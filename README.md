@@ -137,6 +137,7 @@ Open **API settings** in the app and paste your keys. They're saved only in that
 | `npm run dev` | Dev server |
 | `npm run build` | Production build (Cloudflare Workers) |
 | `npm run preview` | Preview the production build |
+| `npm run deploy` | Build and deploy to Cloudflare Workers from your machine (`wrangler login` first) |
 | `npx vitest run` | Unit tests |
 | `LIVE=1 npx vitest run src/test/live-dossier.test.ts` | Live check that every mapped portal responds (TinyFish Fetch, free) |
 | `LIVE=1 LIVE_AGENT=seattle npx vitest run src/test/live-dossier.test.ts` | One full paid dossier with the agent plus a Monitor check (`seattle` \| `san-francisco` \| `nyc`) |

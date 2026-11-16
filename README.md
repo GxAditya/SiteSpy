@@ -18,6 +18,12 @@
     <img alt="Vitest" src="https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white" />
     <img alt="Cloudflare Workers" src="https://img.shields.io/badge/Cloudflare_Workers-F38020?style=for-the-badge&logo=cloudflareworkers&logoColor=white" />
   </p>
+
+  <p>
+    <a href="https://sitespy.kumaradityamth264.workers.dev/"><strong>Live app</strong></a>
+    &nbsp;|&nbsp;
+    <a href="https://github.com/GxAditya/SiteSpy"><strong>GitHub repository</strong></a>
+  </p>
 </div>
 
 ---
@@ -124,8 +130,8 @@ src/routes/                    Search, dossier, monitor, settings, how it works
 **Requirements:** Node.js 20+ and npm, a [TinyFish](https://tinyfish.ai) API key, and optionally an OpenAI, Gemini, Grok, Groq or OpenRouter key for the AI brief.
 
 ```sh
-git clone <this-repository-url> sitespy
-cd sitespy
+git clone https://github.com/GxAditya/SiteSpy.git
+cd SiteSpy
 npm install
 npm run dev            # http://localhost:8080
 ```
@@ -145,6 +151,8 @@ Open **API settings** in the app and paste your keys. They're saved only in that
 The live tests read `TINYFISH_API_KEY` from the environment.
 
 ## Demo
+
+Try it live at **[sitespy.kumaradityamth264.workers.dev](https://sitespy.kumaradityamth264.workers.dev/)**. Add your TinyFish key in **API settings**, then search an address in Seattle, San Francisco or New York City.
 
 ### Output
 
